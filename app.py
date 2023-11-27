@@ -4,16 +4,16 @@ from src.pipelines.prediction_pipeline import Predicion_pipe
 import pandas as pd 
 import numpy as np
 from src.utils import load_object
+import streamlit as st
 
-import streamlit as st 
-left_col, right_col = st.columns([2, 8])
+col1, col2 = st.columns([3, 7])
 
 # Display the image in the left column
-with left_col:
+with col1:
     st.image('1701097834232.jpg', width=300)  # Adjust width as needed
 
 # Display the title in the right column
-with right_col:
+with col2:
     st.title("Ensuring Optimal Solutions for Cement Strength Prediction by Piyush Dhondiyal")
 
 st.title('Cement strength predictor')
