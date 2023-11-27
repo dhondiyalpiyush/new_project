@@ -6,7 +6,15 @@ import numpy as np
 from src.utils import load_object
 
 import streamlit as st 
-st.image('1701097834232.jpg', width=100)
+left_col, right_col = st.beta_columns([2, 8])
+
+# Display the image in the left column
+with left_col:
+    st.image('1701097834232.jpg', width=300)  # Adjust width as needed
+
+# Display the title in the right column
+with right_col:
+    st.title("Ensuring Optimal Solutions for Cement Strength Prediction by Piyush Dhondiyal")
 
 st.title('Cement strength predictor')
 
