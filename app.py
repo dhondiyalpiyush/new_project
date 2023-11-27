@@ -10,7 +10,7 @@ import streamlit as st
 
 # Create a layout using columns
 st.image('1701097834232.jpg', width=300)  # Adjust width as needed
-st.title("Ensuring Optimal Solutions for Cement Strength Prediction by Piyush Dhondiyal")
+st.write("Ensuring Optimal Solutions for Cement Strength Prediction by Piyush Dhondiyal")
 
 # Input fields below the image and title
 st.title('Cement strength predictor')
