@@ -6,6 +6,7 @@ import numpy as np
 from src.utils import load_object
 
 import streamlit as st 
+st.image('1701097834232.jpg', width=100)
 
 st.title('Cement strength predictor')
 
