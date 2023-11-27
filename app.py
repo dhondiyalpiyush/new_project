@@ -6,6 +6,9 @@ import numpy as np
 from src.utils import load_object
 import streamlit as st
 
+import streamlit as st 
+
+# Create a layout using columns
 col1, col2 = st.columns([3, 7])
 
 # Display the image in the left column
@@ -17,6 +20,7 @@ with col2:
     st.title("Ensuring Optimal Solutions for Cement Strength Prediction by Piyush Dhondiyal")
 
 st.title('Cement strength predictor')
+
 
 cement = st.number_input('Enter cement volume in cubic metres')
 Blast_Furnace_Slag = st.number_input('Enter Blast Funace Slag in cubic metre')
