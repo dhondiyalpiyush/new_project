@@ -9,17 +9,12 @@ import streamlit as st
 import streamlit as st 
 
 # Create a layout using columns
-col1, col2 = st.columns([3, 7])
+st.image('1701097834232.jpg', width=300)  # Adjust width as needed
+st.title("Ensuring Optimal Solutions for Cement Strength Prediction by Piyush Dhondiyal")
 
-# Display the image in the left column
-with col1:
-    st.image('1701097834232.jpg', width=300)  # Adjust width as needed
-
-# Display the title in the right column
-with col2:
-    st.title("Ensuring Optimal Solutions for Cement Strength Prediction by Piyush Dhondiyal")
-
+# Input fields below the image and title
 st.title('Cement strength predictor')
+
 
 
 cement = st.number_input('Enter cement volume in cubic metres')
